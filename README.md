@@ -28,14 +28,15 @@ This is a command-line game built with bash where a user is able answer an inter
                     fi
 ```
 
-Sample screenshot of quiz being answered.
+### Preview of answer.
 
-![Answering MCQs](/screenshots/MCQ.png)
+![Answering MCQs](assets/images/MCQ.png)
 
 ## About
 The game is programmed such that a player chooses to either a *play competitive quiz mode* or a *non-competitive practice mode*. The quiz mode tracks the player's score, longest winning streak and save the high scores whereas the practice mode does not track high scores.
 
-Game is built using bash programming language. To play this game;
+## Installation 
+This game is built using bash programming language. To play the game;
 - You can get a copy of the game at [this repository](https://github.com/AsohLove/Terminal-Quiz-Game.git)
 - Change to the project directory(cd) on the terminal or command-line
 - Run `./quiz.sh` to launch the game
