@@ -52,9 +52,17 @@ This is a command-line game built with bash where a user is able answer an inter
 ## About
 The game is programmed such that a player chooses to either a *play competitive quiz mode* or a *non-competitive practice mode*. The quiz mode tracks the player's score, longest winning streak and save the high scores whereas the practice mode does not track high scores.
 
-Game is built using bash programming language. To play this game;
-- You can get a copy of the game at [this repository](https://github.com/AsohLove/Terminal-Quiz-Game.git)
-- Change to the project directory(cd) on the terminal or command-line
+### :electric_plug: How to play this quiz Game
+This quiz game is built using Bash and runs directly in your terminal.
+
+Follow the steps below to start playing:
+
+- You can get a copy of the game at [this repository](https://github.com/AsohLove/Terminal-Quiz-Game.git) OR download it as a ZIP file and extract it.
+
+- Open your terminal and move into the project directory `cd Terminal-QuizGame` OR if you downloaded the ZIP file, navigate to where you extracted it. Example: `cd Desktop/quiz-game`
+
+- Give execution permission to the script; `chmod +x quiz.sh`
+
 - Run `./quiz.sh` to launch the game
 
 The game will now start in your terminal
