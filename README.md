@@ -1,7 +1,24 @@
 # Terminal Quiz Game
 
-## Project description
+## :beginner: Project description
 This is a command-line game built with bash where a user is able answer an interactive quiz on the terminal, also able to record their score, track their longest winning streak on the MCQs and finally get a final score in percentage.
+
+```text
+|
+|--- .github/
+| |--- workflows/
+|    |--- linters.yml # Contains the linters code for checking code errors
+|
+|--- quiz.sh # quiz game implementation in bash programming language
+|
+|--- questions.txt # text file containing quiz questions
+|
+|---README.md # Project overview and documentation
+|
+```
+
+### :star: Tech Stack
+- Bash
 
 **Code snippet**
 
@@ -35,21 +52,22 @@ This is a command-line game built with bash where a user is able answer an inter
 ## About
 The game is programmed such that a player chooses to either a *play competitive quiz mode* or a *non-competitive practice mode*. The quiz mode tracks the player's score, longest winning streak and save the high scores whereas the practice mode does not track high scores.
 
-## Installation
-This game is built using bash programming language. To play the game;
+Game is built using bash programming language. To play this game;
 - You can get a copy of the game at [this repository](https://github.com/AsohLove/Terminal-Quiz-Game.git)
 - Change to the project directory(cd) on the terminal or command-line
 - Run `./quiz.sh` to launch the game
 
+The game will now start in your terminal
+
 
 ## Author
 
-**Love Asoh**
+:fire: **Love Asoh**
 
 - GitHub: [@loveasoh](https://github.com/AsohLove)
 - Twitter: [@loveasoh](https://x.com/LoveTheModifier)
 - LinkedIn: [love asoh](https://www.linkedin.com/in/asohlove/)
 
 
-## License
+## :lock: License
 This project is [MIT](./LICENSE) licensed.
