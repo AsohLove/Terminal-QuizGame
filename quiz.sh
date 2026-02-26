@@ -13,17 +13,31 @@ date=$(date +%Y-%m-%d)
 longest_win_streak=0
 HIGH="highscores.txt"
 
-if [[ $1 == "$HIGH" ]]; then
-    if [[ ! -f "$HIGH" ]];then
-        echo -e "${RED} The highcore file does not exist${RESET}"
+
+# Handle command-line arguments
+if [[ "$1" == "practice" ]]; then
+    mode_choice=2
+
+elif [[ "$1" == "highscores" ]]; then
+    if [[ ! -f "$HIGH" ]]; then
+        echo -e "${RED}The highscore file does not exist${RESET}"
+        exit 1
     elif [[ ! -s "$HIGH" ]]; then
-        echo -e "${RED}  the highscore file is empty ${RESET}"
-    else 
-            
-            echo -e "${GREEN} The 5 top scorers are: ${RESET}"
-            sort -nr highscores.txt | head -n 5
-            exit 1
+        echo -e "${RED}The highscore file is empty${RESET}"
+        exit 1
+    else
+        echo -e "${GREEN}The 5 top scorers are:${RESET}"
+        # Sort by score (assuming the format: name|percent|score/total|date)
+        sort -t'|' -k2 -nr "$HIGH" | head -n 5
+        exit 0
     fi
+fi
+
+if [[ -z "$mode_choice" ]]; then
+    echo "Choose the mode you want to play"
+    echo "1. Competitive Quiz Mode"
+    echo "2. Non-competitive Practice Mode"
+    read -r -p "Choose 1 or 2: " mode_choice
 fi
 
 echo "   ================================    "
@@ -52,11 +66,6 @@ while IFS= read -r line || [[ -n "$line" ]]; do
 done < "$QUEST_FILE"
 
 total=${#questions[@]}
-
-echo -e "Choose the mode you want to play"
-echo "1. Competitive Quiz Mode"
-echo "2. Non-competitive Practice Mode"
-read -r -p "Choose 1 or 2: " mode_choice
 
     case $mode_choice in 
         1) 
