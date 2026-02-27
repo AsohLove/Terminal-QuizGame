@@ -1,0 +1,15 @@
+What is the capital of France? |A) Paris|B) Rome|C) Berlin|D) Madrid|A
+What is 2 + 2 equals? |A) 3|B) 4|C) 22|D) Thanks|B
+What is your nationality? |A) Cameroonian|B) Italian|C) German|D) Hungarian|A
+What is (#! /bin/bash) called in bash? |A) Shebang|B) Interpreter|C) Bash|D) Starter|A
+ls in bash stands for? |A) late|B) less|C) list|D) lost|C
+Changing a directory is done using which command? |A) mkdir|B) chmod|C) ls|D) cd|D
+Which country is the Real Madrid football club base? |A) Europe|B) Belarus|C) Spain|D) Madrid|C
+What is the opposite of slow? |A) slower|B) fast|C) faster|D) go|B
+Which bash command is used to grant permission in bash? |A) cd|B) run|C) chmod +x|D) grant|C
+What command is used to print text to the terminal in bash? |A) print|B) echo|C) write|D) git|B
+What is the capital of Cameroon? |A) Centre|B) Yaounde|C) Obili|D) Bamenda|B
+What does .com stand for in DNS? |A) commercial|B) come|C) complete|D) command|A
+How do you end an if statement in bash? |A) done|B) if|C) end|D) fi|D
+What is the a synonym for hot? |A) hotter|B) warm|C) cold|D) heat|B
+How many continents exist? |A) 3|B) 8|C) 4|D) 7|D
